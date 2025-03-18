@@ -12,7 +12,9 @@ function transporMatriz(A) {
         transp.push(novaLinha)
     }
 
+    console.log('Matriz original:')
     console.log(A)
+    console.log('Matriz transposta:')
     console.log(transp)
 }
 
