@@ -10,8 +10,10 @@ function verificarNumeroPrimo(n) {
 
 // const arrayDeTeste = [0, 1, 2, 3, 7, 83, 100, 991, 104729, 14348907]
 
-// for (number in arrayDeTeste) {
-//     console.log(verificarNumeroPrimo(number))
+// for (n in arrayDeTeste) {
+//     console.log(
+//         `${arrayDeTeste[n]} é primo? ` + verificarNumeroPrimo(arrayDeTeste[n])
+//     )
 // }
 
 verificarNumeroPrimo(0)
